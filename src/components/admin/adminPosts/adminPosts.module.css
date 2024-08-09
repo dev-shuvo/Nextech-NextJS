@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.post_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 218px;
+}
+.post img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.delete_btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: red;
+  color: var(--bg-color);
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}

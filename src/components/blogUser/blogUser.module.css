@@ -1,0 +1,5 @@
+.author {
+  letter-spacing: 1px;
+  color: var(--primary-color);
+  font-weight: bold;
+}

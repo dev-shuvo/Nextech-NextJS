@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.users {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.users span {
+  font-weight: bold;
+}
+.delete_btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: red;
+  color: var(--bg-color);
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}

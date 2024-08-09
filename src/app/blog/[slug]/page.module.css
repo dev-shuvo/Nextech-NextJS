@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.thumbnail {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.title {
+  margin-top: 30px;
+}
+.date {
+  letter-spacing: 10px;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 26px;
+    line-height: 44px;
+  }
+  .date {
+    line-height: 30px;
+  }
+}

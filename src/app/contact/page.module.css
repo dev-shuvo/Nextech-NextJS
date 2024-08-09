@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.img_container {
+  flex: 1;
+}
+.img_container img {
+  width: 100%;
+  height: 100%;
+}
+.form_container {
+  flex: 1;
+}
+.form_container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form_container form input,
+.form_container form textarea {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+.form_container form button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+  .form_container {
+    width: 100%;
+  }
+}

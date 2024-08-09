@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.row {
+  display: flex;
+  gap: 30px;
+}
+.col {
+  flex: 50%;
+}
+@media (max-width: 991px) {
+  .row {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

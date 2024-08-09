@@ -1,0 +1,41 @@
+.login_form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.login_form h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.login_form input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.login_form button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 5px;
+}
+.github_btn {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 500px;
+}
+@media (max-width: 767px) {
+  .login_form,
+  .github_btn {
+    width: 100%;
+  }
+}
